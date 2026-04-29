@@ -8,7 +8,6 @@ import FeatureCardSixteen from '@/components/sections/feature/FeatureCardSixteen
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import HeroCarouselLogo from '@/components/sections/hero/heroCarouselLogo/HeroCarouselLogo';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
-import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
 import TextAbout from '@/components/sections/about/TextAbout';
 
 export default function LandingPage() {
@@ -33,8 +32,6 @@ export default function LandingPage() {
           name: "About",          id: "about"},
         {
           name: "Services",          id: "features"},
-        {
-          name: "Testimonials",          id: "testimonials"},
         {
           name: "Contact",          id: "contact"},
       ]}
@@ -93,28 +90,6 @@ export default function LandingPage() {
       }}
       title="The Forva Difference"
       description="We balance creative vision with technical precision."
-    />
-  </div>
-
-  <div id="testimonials" data-section="testimonials">
-      <TestimonialCardSix
-      animationType="slide-up"
-      textboxLayout="default"
-      useInvertedBackground={true}
-      testimonials={[
-        {
-          id: "1",          name: "Alex Rivers",          handle: "@arivers",          testimonial: "Forva transformed our digital presence with unmatched quality.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-confident-businesswoman-suit-cross-arms-chest-looking-like-real-professional-smili_1258-122403.jpg"},
-        {
-          id: "2",          name: "Sarah Chen",          handle: "@schen",          testimonial: "Professional, creative, and extremely reliable.",          imageSrc: "http://img.b2bpic.net/free-photo/business-finance-employment-female-successful-entrepreneurs-concept-smiling-professional-female-office-manager-ceo-e-commerce-company-looking-pleased-camera-white-background_1258-59171.jpg"},
-        {
-          id: "3",          name: "Marcus Thorne",          handle: "@mthorne",          testimonial: "The best creative team we've worked with.",          imageSrc: "http://img.b2bpic.net/free-photo/dark-blonde-bearded-man-crosses-his-hands-chest-posing-black-shirt_8353-1116.jpg"},
-        {
-          id: "4",          name: "Elena Rodriguez",          handle: "@erod",          testimonial: "Strategic thinkers with a great aesthetic.",          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-woman-low-angle_23-2149213172.jpg"},
-        {
-          id: "5",          name: "Kevin J. Miller",          handle: "@kjm",          testimonial: "They built a foundation for our scale.",          imageSrc: "http://img.b2bpic.net/free-photo/crazy-hippie-angry-expression_1194-3931.jpg"},
-      ]}
-      title="Trusted by Leaders"
-      description="Hear what our partners say."
     />
   </div>
 
