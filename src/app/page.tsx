@@ -82,11 +82,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       negativeCard={{
         items: [
-          "No online presence",          "An unwelcoming website"],
+          "No online presence",          "An unwelcoming website",          "Watching competitors take your customers"],
       }}
       positiveCard={{
         items: [
-          "Innovative digital strategy",          "Future-proof development",          "Cohesive brand identity"],
+          "A site that works for you 24/7",          "Live within days of our first conversation",          "Built to convert visitors into paying customers"],
       }}
       title="The Forva Difference"
       description="We balance creative vision with technical precision."
@@ -98,11 +98,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "q1",          title: "What is the timeline?",          content: "Projects typically last between 8-12 weeks."},
+          id: "q1",          title: "What does it cost?",          content: "Our pricing depends on your specific business requirements. We provide tailored solutions to fit your budget and goals."},
         {
-          id: "q2",          title: "Do you work remotely?",          content: "Yes, we are a global, remote-first studio."},
+          id: "q2",          title: "How quickly can we get started?",          content: "We can begin immediately after our initial discovery call and project scope agreement."},
         {
-          id: "q3",          title: "How do we start?",          content: "Book a discovery call through our contact form."},
+          id: "q3",          title: "What do you need from me?",          content: "We just need your business goals, any existing brand materials, and a bit of feedback throughout the design process."},
       ]}
       sideTitle="Questions? Answers."
       faqsAnimation="slide-up"
@@ -115,7 +115,7 @@ export default function LandingPage() {
       background={{
         variant: "sparkles-gradient"}}
       tag="Let's Chat"
-      title="Ready to build something iconic?"
+      title="The longer you wait, the more business walks past you."
       description="We are ready to work with you on your next big vision."
       buttons={[
         {
