@@ -43,8 +43,8 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroCarouselLogo
-      logoText="FORVA"
-      description="Where innovation meets professional creative direction. We help brands thrive in a digital-first world."
+      logoText="Your customers are searching for you online. Can they find you?"
+      description="We build professional websites for South Florida businesses. Fast turnaround. No technical knowledge required on your end."
       buttons={[
         {
           text: "Explore Work",          href: "#about"},
@@ -82,7 +82,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       negativeCard={{
         items: [
-          "Legacy design constraints",          "Outdated workflows",          "Fragmented branding"],
+          "No online presence",          "An unwelcoming website"],
       }}
       positiveCard={{
         items: [
